@@ -1,0 +1,7 @@
+git checkout -b "fast-forward"
+git add "file4.txt"
+git commit -m "Adding file4.txt to fast-forward branch"
+git checkout main
+git merge fast-forward
+git log --oneline --graph --decorate
+git branch -b fast-forward
