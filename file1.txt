@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Adding initial content to file1.txt"
+git branch -M main
+git remote add origin https://github.com/Fizaahmad14/DevOps_Lab1.git
+git push -u origin main
